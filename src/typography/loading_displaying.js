@@ -35,6 +35,10 @@ require('../core/error_helpers');
  *
  * <p>Calling loadFont() inside <a href="#/p5/preload">preload()</a> guarantees that the load
  * operation will have completed before <a href="#/p5/setup">setup()</a> and <a href="#/p5/draw">draw()</a> are called.</p>
+ 
+ <p>Be sure to upload your external font file to the p5.js Web Editor to your project folder. Your project folder can be found 
+ by clicking the arrow on the left-hand side of the editor. Uploading the external font file will allow the example code below to 
+ find and use your font file.</p>
  *
  * <div><code>
  * var myFont;
